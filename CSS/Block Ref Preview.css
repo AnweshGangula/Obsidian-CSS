@@ -1,0 +1,38 @@
+/* Obsidian Custom CSS Snippet: Block Ref Preview */
+
+/* display it in the same line */
+.markdown-preview-view .internal-embed:not(.image-embed) {
+  display: inline-block;
+}
+
+/* remove bullet point */
+.markdown-embed-content ul {
+  display: contents;
+}
+
+.markdown-preview-view .markdown-embed,
+.markdown-preview-view .file-embed {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 5px;
+  width: fit-content;
+  border: none;
+  /* border-block: 1px solid var(--background-modifier-border); */
+  background: var(--background-modifier-border);
+  border-radius: 5px;
+}
+
+.markdown-embed-link {
+  position: unset;
+  margin-left: 5px;
+}
+
+.markdown-embed .markdown-preview-view {
+  padding: 0;
+}
+
+/* Remove tags from block reference preview */
+.markdown-preview-view .markdown-embed .tag {
+  display: none;
+}

@@ -1,0 +1,13 @@
+/* Obsidian Custom CSS Snippet: Block Ref Preview - Link */
+/* additional style to Block Reference Preview to optionally expand the anchor tag to 100% width */
+
+.markdown-embed-link {
+  position: absolute !important;
+  margin-left: 0;
+  /* border: 1px solid white; */
+  width: -webkit-fill-available;
+}
+
+.markdown-embed-link > svg{
+  opacity: 0;
+}
