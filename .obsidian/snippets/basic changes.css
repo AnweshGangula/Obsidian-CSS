@@ -1,0 +1,30 @@
+/* Obsidian Custom CSS Snippet: basic changes */
+
+img{
+  width: 100%;
+}
+
+.markdown-preview-view pre {  
+    overflow: auto;
+}
+
+li:empty {
+  visibility: hidden;
+}
+
+li:not(.markdown-embed li){
+  margin: 5px 0;
+  /* width: fit-content; */
+}
+
+.document-search-container {
+  bottom: 10px;
+}
+
+.markdown-preview-view .internal-link {
+  color: darkgoldenrod;
+}
+
+/* pre {
+    text-overflow: ellipsis;
+} */
