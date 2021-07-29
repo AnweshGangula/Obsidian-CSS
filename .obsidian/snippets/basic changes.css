@@ -1,18 +1,18 @@
 /* Obsidian Custom CSS Snippet: basic changes */
 
-img{
+img {
   width: 100%;
 }
 
-.markdown-preview-view pre {  
-    overflow: auto;
+.markdown-preview-view pre {
+  overflow: auto;
 }
 
 li:empty {
   visibility: hidden;
 }
 
-li:not(.markdown-embed li){
+li:not(.markdown-embed li) {
   margin: 5px 0;
   /* width: fit-content; */
 }

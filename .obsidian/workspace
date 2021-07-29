@@ -7,11 +7,8 @@
         "id": "c8874ae9e9c5a33c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Applications & Tools.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CTRL",
+                "query": "\"name of snippet file\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283
+    "width": 292
   },
   "right": {
     "id": "a50a667dcd70b7c5",
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications & Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,13 +99,10 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Applications & Tools.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,15 +111,15 @@
   },
   "active": "c8874ae9e9c5a33c",
   "lastOpenFiles": [
-    "Applications & Tools.md",
     "Architecture & Construction.md",
+    "Backlinks.md",
     "Artificial Intelligence.md",
-    "CSS.md",
-    "Cloud Natural Language.md",
-    "Blog Posts.md",
-    "Data Science.md",
+    "April 11th, 2021.md",
+    "Applications & Tools.md",
+    "Atomic CSS.md",
     "Programming.md",
-    "Projects to try.md",
-    "Academics.md"
+    "Web Development.md",
+    "Physics in VR.md",
+    "Technology & Gadgets.md"
   ]
 }

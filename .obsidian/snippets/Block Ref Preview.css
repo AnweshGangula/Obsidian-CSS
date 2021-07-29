@@ -6,7 +6,7 @@
 }
 
 /* remove bullet point */
-.markdown-embed-content ul {
+.internal-embed .markdown-embed-content ul {
   display: contents;
 }
 
@@ -23,7 +23,7 @@
   border-radius: 5px;
 }
 
-.markdown-embed-link {
+.internal-embed.is-loaded .markdown-embed-link {
   position: unset;
   margin-left: 5px;
 }
@@ -31,9 +31,24 @@
 .markdown-embed .markdown-preview-view {
   padding: 0;
   overflow: hidden;
+  cursor: text;
 }
 
 /* Remove tags from block reference preview */
 .markdown-preview-view .markdown-embed .tag {
   display: none;
+}
+
+/* Disable hyperlinking in a block ref */
+.markdown-embed .markdown-preview-view a {
+  /* color: var(--text-normal); */
+  pointer-events: none;
+  text-decoration: none;
+}
+
+/* Block Ref in editor mode */
+.cm-hmd-internal-link,
+.cm-formatting-link:not(.cm-link),
+.cm-blockid {
+  background: var(--background-modifier-border);
 }

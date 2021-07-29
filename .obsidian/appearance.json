@@ -4,6 +4,7 @@
   "enabledCssSnippets": [
     "Block Ref Preview",
     "basic changes",
-    "bullet lines"
+    "bullet lines",
+    "hover-popover"
   ]
 }
