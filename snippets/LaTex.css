@@ -1,0 +1,9 @@
+/* Obsidian Custom CSS Snippet: hover-popover */
+
+/* Hover Preview of a Page Ref */
+span.math.math-block.is-loaded {
+    display: inline-block;
+    padding: 0 10px;
+    background: var(--background-secondary);
+    border-radius: 5px;
+}
