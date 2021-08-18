@@ -1,10 +1,10 @@
 {
   "baseFontSize": 16,
-  "obsidianCss": false,
   "enabledCssSnippets": [
     "Block Ref Preview",
     "basic changes",
     "bullet lines",
-    "hover-popover"
+    "hover-popover",
+    "LaTex"
   ]
 }

@@ -19,13 +19,15 @@
   width: fit-content;
   border: none;
   /* border-block: 1px solid var(--background-modifier-border); */
-  background: var(--background-modifier-border);
+  background-color: var(--scrollbar-thumb-bg);
   border-radius: 5px;
 }
 
 .internal-embed.is-loaded .markdown-embed-link {
   position: unset;
   margin-left: 5px;
+  color: unset;
+  mix-blend-mode: exclusion;
 }
 
 .markdown-embed .markdown-preview-view {

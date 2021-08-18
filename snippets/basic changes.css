@@ -1,7 +1,7 @@
 /* Obsidian Custom CSS Snippet: basic changes */
 
 img {
-  width: 100%;
+  max-width: 600px;
 }
 
 .markdown-preview-view pre {
@@ -23,6 +23,11 @@ li:not(.markdown-embed li) {
 
 .markdown-preview-view .internal-link {
   color: darkgoldenrod;
+}
+
+.markdown-preview-view mark {
+  padding: 0 5px;
+  border-radius: 5px;
 }
 
 /* pre {
