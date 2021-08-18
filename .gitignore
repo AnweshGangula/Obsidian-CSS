@@ -1,4 +1,4 @@
-# Custom gitignore
+# Custom gitignore: ignore files without extenstion (eg: workspace): https://stackoverflow.com/questions/5711120/gitignore-binary-files-that-have-no-extension
 # Ignore all
 *
 
@@ -7,6 +7,8 @@
 
 # Unignore all dirs
 !*/
+
+# Default node.js .gitignore
 
 # Logs
 logs
