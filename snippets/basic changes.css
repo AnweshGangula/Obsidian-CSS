@@ -21,8 +21,17 @@ li:not(.markdown-embed li) {
   bottom: 10px;
 }
 
+span.cm-list-1.cm-hmd-internal-link,
+.cm-s-obsidian span.cm-hmd-internal-link,
 .markdown-preview-view .internal-link {
   color: darkgoldenrod;
+  /* filter: hue-rotate(150deg); */
+}
+
+.cm-s-obsidian span.cm-hashtag,
+a.tag {
+  color: lightseagreen;
+  /* filter: hue-rotate(270deg); */
 }
 
 .markdown-preview-view mark {
