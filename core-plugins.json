@@ -4,8 +4,10 @@
   "switcher",
   "graph",
   "backlink",
+  "outgoing-link",
   "tag-pane",
   "page-preview",
+  "daily-notes",
   "note-composer",
   "command-palette",
   "starred",
@@ -13,5 +15,6 @@
   "outline",
   "word-count",
   "open-with-default-app",
+  "workspaces",
   "file-recovery"
 ]

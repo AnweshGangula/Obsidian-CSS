@@ -1,5 +1,9 @@
 [
   "obsidian-zoom",
   "sliding-panes-obsidian",
-  "dataview"
+  "dataview",
+  "better-word-count",
+  "obsidian-checklist-plugin",
+  "obsidian-outliner",
+  "url-into-selection"
 ]
