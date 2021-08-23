@@ -8,6 +8,10 @@
 # Unignore all dirs
 !*/
 
+# 
+starred.json
+
+
 # Default node.js .gitignore
 
 # Logs

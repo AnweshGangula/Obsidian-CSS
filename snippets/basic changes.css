@@ -1,7 +1,9 @@
 /* Obsidian Custom CSS Snippet: basic changes */
 
 img {
-  max-width: 600px;
+  /* 50vw and 50 vh makes sure that the entire image is visible on the screen */
+  max-width: 50vw !important;
+  max-height: 50vh !important;
 }
 
 .markdown-preview-view pre {
@@ -26,12 +28,6 @@ span.cm-list-1.cm-hmd-internal-link,
 .markdown-preview-view .internal-link {
   color: darkgoldenrod;
   /* filter: hue-rotate(150deg); */
-}
-
-.cm-s-obsidian span.cm-hashtag,
-a.tag {
-  color: lightseagreen;
-  /* filter: hue-rotate(270deg); */
 }
 
 .markdown-preview-view mark {

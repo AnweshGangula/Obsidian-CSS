@@ -1,0 +1,53 @@
+.tag-container > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  min-height: unset !important;
+}
+
+.tag-container div:empty {
+  display: none;
+}
+
+.tree-item-self.tag-pane-tag {
+  align-items: center;
+}
+
+/* Tag Pills: Reference: https://github.com/chetachiezikeuzor/Obsidian-Snippets/blob/main/Tag%20Pills.css */
+
+.theme-dark {
+  --tag-base: var(--background-primary-alt);
+}
+
+.theme-light {
+  --tag-base: var(--background-primary);
+}
+
+.tag,
+.tag-pane-tag-self {
+  background-color: var(--tag-base);
+  font-size: small;
+  background: darkcyan;
+  background: darkslategray;
+  border: 1px solid var(--boldlightpink);
+  color: lightseagreen;
+  /* filter: hue-rotate(270deg); */
+  font-weight: 500;
+  padding: 1.5px 8px;
+  margin: 0 2px;
+  /* text-align: center; */
+  text-decoration: none !important;
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.tag:hover {
+  color: black !important;
+  text-decoration: none !important;
+  transition: 0.1s ease-in-out;
+  background-color: var(--boldlightpink);
+}
+
+/* ---- End Tag Pills ----- */
