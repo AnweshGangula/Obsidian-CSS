@@ -1,3 +1,6 @@
+/* Obsidian Custom CSS Snippet: Tags.css */
+
+/* ---------- Tag Pane ---------- */
 .tag-container > div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -12,42 +15,66 @@
   align-items: center;
 }
 
-/* Tag Pills: Reference: https://github.com/chetachiezikeuzor/Obsidian-Snippets/blob/main/Tag%20Pills.css */
+/* ---------- Tags ---------- */
 
-.theme-dark {
-  --tag-base: var(--background-primary-alt);
-}
+/* Enable below CSS to align your tags to the Right in preview mode */
+/* .tag:not(.token) {
+  float: right;
+} */
 
-.theme-light {
-  --tag-base: var(--background-primary);
-}
+/* ---------- Tag Pills: Reference: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/64 */
 
-.tag,
-.tag-pane-tag-self {
-  background-color: var(--tag-base);
-  font-size: small;
-  background: darkcyan;
-  background: darkslategray;
-  border: 1px solid var(--boldlightpink);
-  color: lightseagreen;
-  /* filter: hue-rotate(270deg); */
-  font-weight: 500;
-  padding: 1.5px 8px;
-  margin: 0 2px;
-  /* text-align: center; */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-end:before {
+  content: "#";
+} */
+
+.tag:not(.token),
+.tag-pane-tag-text,
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag {
+  background-color: var(--text-accent);
+  border: none;
+  color: white !important;
+  font-size: 11px;
+  /* padding: 1px 8px; */
+  text-align: center;
   text-decoration: none !important;
   display: inline-block;
-  float: right;
+  margin: 0px 0px;
   cursor: pointer;
-  border-radius: 10px;
-  transition: 0.5s ease-in-out;
+  /* border-radius: 14px; */
 }
 
-.tag:hover {
-  color: black !important;
-  text-decoration: none !important;
-  transition: 0.1s ease-in-out;
-  background-color: var(--boldlightpink);
+.tag:not(.token),
+.tag-pane-tag-text {
+  padding: 0 8px;
+  border-radius: 100vw;
+}
+
+.cm-hashtag-begin {
+  padding-left: 8px;
+  border-radius: 100vw 0 0 100vw;
+}
+
+.cm-hashtag-end {
+  padding-right: 8px;
+  border-radius: 0 100vw 100vw 0;
+}
+
+.tag:not(.token):hover {
+  color: white;
+  background-color: var(--text-accent-hover);
+}
+.tag[href^="#obsidian"] {
+  background-color: #4d3ca6;
+}
+.tag[href^="#important"] {
+  background-color: red;
+}
+.tag[href^="#complete"] {
+  background-color: green;
+}
+.tag[href^="#inprogress"] {
+  background-color: orange;
 }
 
 /* ---- End Tag Pills ----- */
