@@ -1,0 +1,43 @@
+/* Obsidian Custom CSS Snippet: Clutter Free Edit Mode.css
+
+Reference: https://forum.obsidian.md/t/clutter-free-edit-mode/6791
+ */
+
+/* inline formatting, link targets and [[ ]] disappears if not active line*/
+/* hashtag "#" */ /* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting, */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-string.cm-url, */
+/* "[[" */ /* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-link, */
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hmd-barelink,
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-comment {
+  display: none;
+}
+
+/* hide all html tags -- IT IS COMMENTED OUT BY DEFAULT */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-tag{ display: none; } */
+
+/* except list markers */
+span.cm-formatting-list,
+/*code block backticks */ span.cm-formatting-code-block.cm-hmd-codeblock,
+/* optionally header hashes */ span.cm-formatting-header {
+  display: inline !important;
+}
+
+/* and task checkboxes */
+span.cm-formatting-task {
+  display: inline !important;
+  font-family: monospace;
+}
+
+/* Referernce: https://santiyounger.com/obsidian-shorter-links */
+
+div:not(.CodeMirror-activeline)
+  > .CodeMirror-line
+  .cm-string.cm-url:not(.cm-formatting) {
+  font-size: 0;
+}
+div:not(.CodeMirror-activeline)
+  > .CodeMirror-line
+  .cm-string.cm-url:not(.cm-formatting)::after {
+  content: "»";
+  font-size: 1rem;
+}

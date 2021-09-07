@@ -1,0 +1,12 @@
+/* Obsidian Custom CSS Snippet: Tags.css 
+
+Reference: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/91
+*/
+
+.nav-folder-children {
+  column-width: 200px;
+}
+
+/* .nav-folder-children div:empty {
+  display: none;
+} */
