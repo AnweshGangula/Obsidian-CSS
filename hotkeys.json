@@ -66,6 +66,14 @@
     }
   ],
   "app:open-vault": [],
+  "sliding-panes-obsidian:toggle-sliding-panes-leaf-auto-width": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
@@ -74,12 +82,13 @@
       "key": "."
     }
   ],
-  "sliding-panes-obsidian:toggle-sliding-panes-leaf-auto-width": [
+  "editor:insert-link": [],
+  "obsidian-zoom:zoom-in": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "X"
+      "key": "K"
     }
   ]
 }
