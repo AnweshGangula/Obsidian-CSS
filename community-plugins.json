@@ -6,5 +6,6 @@
   "obsidian-checklist-plugin",
   "obsidian-outliner",
   "cycle-through-panes",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-codemirror-options"
 ]
