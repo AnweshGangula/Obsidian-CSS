@@ -41,3 +41,52 @@ div:not(.CodeMirror-activeline)
   content: "»";
   font-size: 1rem;
 }
+
+/* Check box CSS - Reference: https://forum.obsidian.md/t/clutter-free-edit-mode/6791/66 */
+
+/* NO NEED TO USE - Already enabled using CodeMirror Options plugin - "Edit Mode Click Handler setting"*/
+
+/* span.cm-formatting-task {
+  display: inline !important;
+  font-family: "Inter, sans-serif";
+  letter-spacing: -2.5px;
+}
+span.cm-formatting-task.cm-property {color: lightgreen;}
+
+div:not(.CodeMirror-activeline)
+  > .CodeMirror-line
+  span.cm-formatting-task.cm-meta,
+div:not(.CodeMirror-activeline)
+  > .CodeMirror-line
+  span.cm-formatting-task.cm-property {
+  color: transparent;
+  position: relative;
+}
+
+span.cm-formatting-task.cm-meta:after,
+span.cm-formatting-task.cm-property:after {
+  font-family: Inter, sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 3px;
+  font-size: 1.7em;
+}
+
+div:not(.CodeMirror-activeline)
+  > .CodeMirror-line
+  span.cm-formatting-task.cm-meta:after,
+div:not(.CodeMirror-activeline)
+  > .CodeMirror-line
+  span.cm-formatting-task.cm-property:after {
+  content: "☐";
+  color: var(--text-normal);
+}
+
+div:not(.CodeMirror-activeline)
+  > .CodeMirror-line
+  span.cm-formatting-task.cm-property:after {
+  content: "☑";
+  color: mediumspringgreen;
+} */
+
+/* ---------- Checkbox CSS end ---------- */

@@ -1,9 +1,9 @@
 {
-  "dynamicCursor": false,
+  "dynamicCursor": true,
   "markSelection": false,
-  "activeLineOnSelect": false,
+  "activeLineOnSelect": true,
   "enableCMinPreview": false,
   "enablePrismJSStyling": false,
   "editModeHideTokens": true,
-  "editModeClickHandler": false
+  "editModeClickHandler": true
 }
