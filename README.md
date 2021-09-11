@@ -13,7 +13,7 @@ This repository is a copy of the entire `.obsidian` folder from my local Obsidia
 
 ## ignored files
 * the `workspace` file is ignored since it is relevant to the respective vault.
-    * below lines used in `.gitignnore` to [ignore files without extension](https://stackoverflow.com/questions/5711120/gitignore-binary-files-that-have-no-extension):
+    * below lines used in `.gitignore` to [ignore files without extension](https://stackoverflow.com/questions/5711120/gitignore-binary-files-that-have-no-extension):
         ```sh
         # Ignore all
         *

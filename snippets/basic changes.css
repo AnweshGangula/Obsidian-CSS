@@ -36,5 +36,27 @@ span.cm-list-1.cm-hmd-internal-link,
 }
 
 /* pre {
-    text-overflow: ellipsis;
+  text-overflow: ellipsis;
 } */
+
+a.internal-link {
+  margin: 2px;
+}
+
+/* ---------- Sticky Header ---------- 
+Causing ISSUE with Block-ref preview - they follow same css structure as a page content
+*/
+/* .view-content > div > .markdown-preview-view {
+  padding: 0;
+  margin: 20px 30px;
+} */
+
+/* .markdown-preview-section > div:nth-child(2) {
+  position: sticky !important;
+  top: 0;
+  background: var(--background-primary);
+  z-index: 3;
+  border-bottom: var(--interactive-hover) 1px solid;
+} */
+
+/* ---------- Sticky Header End ---------- */
