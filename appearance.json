@@ -1,14 +1,12 @@
 {
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "Block Ref Preview",
-    "basic changes",
-    "bullet lines",
-    "Clutter Free Edit",
     "File Explorer Columns",
     "hover-popover",
     "LaTex",
-    "Tags"
+    "Tags",
+    "basic changes",
+    "Block Ref Preview"
   ],
   "theme": "obsidian"
 }
