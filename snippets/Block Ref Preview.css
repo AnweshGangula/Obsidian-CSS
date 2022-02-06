@@ -54,3 +54,21 @@
 .cm-blockid {
   background: var(--background-modifier-border);
 }
+
+/* Source View Styles Begin */
+
+.markdown-embed .markdown-preview-sizer.markdown-preview-section {
+  min-height: unset !important;
+}
+
+.markdown-embed,
+.file-embed {
+  padding: 0 5px !important;
+  display: inline-flex;
+}
+
+.markdown-source-view.mod-cm6 .internal-embed:not(.image-embed) {
+  display: inline;
+}
+
+/* Source View Styles End */
