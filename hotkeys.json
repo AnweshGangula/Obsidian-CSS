@@ -1,20 +1,6 @@
 {
-  "editor:swap-line-down": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
+  "editor:swap-line-down": [],
+  "editor:swap-line-up": [],
   "editor:fold-all": [
     {
       "modifiers": [
@@ -22,20 +8,6 @@
         "Shift"
       ],
       "key": "ArrowUp"
-    }
-  ],
-  "editor:toggle-fold": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowUp"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowDown"
     }
   ],
   "editor:unfold-all": [
@@ -88,7 +60,39 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "K"
+      "key": "'"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:fold": [],
+  "obsidian-outliner:unfold": [],
+  "obsidian-outliner:move-list-item-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:move-list-item-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
     }
   ]
 }

@@ -41,6 +41,10 @@
   display: none;
 }
 
+/* Remove children of the referenced bullet */
+.markdown-preview-view li[data-line]:not([data-line='0']) {
+  display: none;
+}
 /* Disable hyperlinking in a block ref */
 .markdown-embed .markdown-preview-view a {
   /* color: var(--text-normal); */
@@ -54,3 +58,21 @@
 .cm-blockid {
   background: var(--background-modifier-border);
 }
+
+/* Source View Styles Begin */
+
+.markdown-embed .markdown-preview-sizer.markdown-preview-section {
+  min-height: unset !important;
+}
+
+.markdown-embed,
+.file-embed {
+  padding: 0 5px !important;
+  display: inline-flex;
+}
+
+.markdown-source-view.mod-cm6 .internal-embed:not(.image-embed) {
+  display: inline;
+}
+
+/* Source View Styles End */
