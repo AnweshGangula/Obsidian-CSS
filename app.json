@@ -7,5 +7,7 @@
   "readableLineLength": false,
   "smartIndentList": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "legacyEditor": false,
+  "livePreview": true
 }

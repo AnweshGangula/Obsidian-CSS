@@ -41,10 +41,11 @@
   display: none;
 }
 
-/* Remove children of the referenced bullet */
+/* Remove children of the referenced bullet
 .markdown-preview-view li[data-line]:not([data-line='0']) {
   display: none;
-}
+} */
+
 /* Disable hyperlinking in a block ref */
 .markdown-embed .markdown-preview-view a {
   /* color: var(--text-normal); */
